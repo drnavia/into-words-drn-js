@@ -68,7 +68,7 @@ article {
   border-radius: 50%;
   background-image: url("../img/cards/presentacion-back.jpg");
   background-color: white;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  /*box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);*/
   height: 200px;
   margin-top: -105px;
   width: 200px;
