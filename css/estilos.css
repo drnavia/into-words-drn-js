@@ -72,10 +72,6 @@ article {
   height: 200px;
   margin-top: -105px;
   width: 200px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
 }
 .card-cover-body-title {
   font-size: 1.8rem;
@@ -149,10 +145,6 @@ article {
   font-size: 1.2rem;
   font-weight: 600;
   padding: 10px 15px;
-  -webkit-border-radius:;
-  -moz-border-radius:;
-  -ms-border-radius:;
-  -o-border-radius:;
 }
 .card-cover-footer-button:hover {
   background-color: #3C00A8;
@@ -201,11 +193,6 @@ button:hover {
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-
-  -webkit-animation-name:parpadeo;
-  -webkit-animation-duration: 3s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
 }
 @-moz-keyframes parpadeo{  
   0% { opacity: 1.0; }
