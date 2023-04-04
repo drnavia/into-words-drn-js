@@ -196,17 +196,17 @@ button:hover {
 }
 @-moz-keyframes parpadeo{  
   0% { opacity: 1.0; }
-  50% { opacity: 0.0; }
+  50% { opacity: 0.2; }
   100% { opacity: 1.0; }
 }
 @-webkit-keyframes parpadeo {  
   0% { opacity: 1.0; }
-  50% { opacity: 0.0; }
+  50% { opacity: 0.2; }
   100% { opacity: 1.0; }
 }
 @keyframes parpadeo {  
   0% { opacity: 1.0; }
-  50% { opacity: 0.0; }
+  50% { opacity: 0.2; }
   100% { opacity: 1.0; }
 }
 
