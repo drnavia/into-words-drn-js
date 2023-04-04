@@ -58,7 +58,7 @@ article {
 }
 .card-cover-body {
   align-items: center;
-  border-bottom: 1px solid rgba(153, 153, 153, 0.383);
+  border-bottom: 0px solid rgba(153, 153, 153, 0.383);
   display: flex;
   flex-direction: column;
   height: 300px;
@@ -144,10 +144,15 @@ article {
 }
 .card-cover-footer-button {
   background-color: black;
+  border-radius: 10px;
   color: white;
   font-size: 1.2rem;
   font-weight: 600;
   padding: 10px 15px;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
 }
 .card-cover-footer-button:hover {
   background-color: #3C00A8;
