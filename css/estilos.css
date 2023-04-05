@@ -58,10 +58,10 @@ article {
 }
 .card-cover-body {
   align-items: center;
-  border-bottom: 0px solid rgba(153, 153, 153, 0.383);
+  border-bottom: 1px solid rgba(153, 153, 153, 0.383);
   display: flex;
   flex-direction: column;
-  height: 300px;
+  height: 270px;
 }
 .card-cover-body-img {
   border: 10px solid white;
@@ -108,17 +108,15 @@ article {
   text-transform: uppercase;
 }
 .card-cover-body-question {
+  color: black;
   font-size: 1.8rem;
+  font-weight: 400;
   margin-bottom: 3rem;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 3rem;
   text-align: center;
   text-transform: initial;
-}
-.card-cover-body-question span {
-  color: var(--dark-gray);
-  font-weight: 400;
 }
 .card-cover-footer {
   display: flex;
@@ -133,28 +131,24 @@ article {
   letter-spacing: 1px;
 }
 .card-cover-footer-button {
-  background-color: #d2f7ee;
+  background-color: white;
   /*background-image: url("../img/cards/presentacion-back.jpg");*/
-  padding: 10px;
-  text-align: center;
-}
-.card-cover-footer-button {
-  background-color: black;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
+  /*box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);*/
   color: white;
   font-size: 1.2rem;
   font-weight: 600;
   padding: 10px 15px;
+  text-align: center;
 }
-.card-cover-footer-button:hover {
+.card-cover-footer-button-off:hover {
   background-color: #3C00A8;
   color: white;
   cursor: pointer;
 }
 button {
   color: white;
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1rem;
   background-color: #7b2cbf;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
   border: 0px solid var(--dark-cyan);
@@ -162,9 +156,13 @@ button {
   padding: 10px 15px;
 }
 button:hover {
-  color: black;
-  background-color: #c77dff;
+  color: white;
+  background-color: black;
   border: 0px solid #555555;
+}
+.card-comentario {
+  color: #aaaaaa;
+  margin: 10px 0px 0px 0px;
 }
 
 /* CARD BACKCOVER */
@@ -186,7 +184,7 @@ button:hover {
   width: 326px;
 }
 
-/* EFECTO PARPADEO */
+/* EFECTO PARPADEANDO */
 .parpadea {
   
   animation-name: parpadeo;
@@ -196,17 +194,17 @@ button:hover {
 }
 @-moz-keyframes parpadeo{  
   0% { opacity: 1.0; }
-  50% { opacity: 0.2; }
+  50% { opacity: 0.5; }
   100% { opacity: 1.0; }
 }
 @-webkit-keyframes parpadeo {  
   0% { opacity: 1.0; }
-  50% { opacity: 0.2; }
+  50% { opacity: 0.5; }
   100% { opacity: 1.0; }
 }
 @keyframes parpadeo {  
   0% { opacity: 1.0; }
-  50% { opacity: 0.2; }
+  50% { opacity: 0.5; }
   100% { opacity: 1.0; }
 }
 
