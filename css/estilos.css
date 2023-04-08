@@ -28,7 +28,7 @@ body {
   display: flex;
   flex-direction: row; 
   justify-content: center;
-  height: 100vh;
+  height: 95vh;
   padding-top: 100px;
 }
 
@@ -58,7 +58,7 @@ article {
 }
 .card-cover-body {
   align-items: center;
-  border-bottom: 1px solid rgba(153, 153, 153, 0.383);
+  border-bottom: 1px solid hsl(272, 63%, 46%);
   display: flex;
   flex-direction: column;
   height: 270px;
@@ -131,7 +131,7 @@ article {
   letter-spacing: 1px;
 }
 .card-cover-footer-button {
-  background-color: white;
+  background-color: #f0f0f0;
   /*background-image: url("../img/cards/presentacion-back.jpg");*/
   /*border-radius: 10px;*/
   /*box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);*/
@@ -215,4 +215,10 @@ button:hover {
   }
 }
 
+.info-footer {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
 /*# sourceMappingURL=estilos.css.map */
